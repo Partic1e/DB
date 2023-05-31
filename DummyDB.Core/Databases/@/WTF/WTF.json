@@ -1,0 +1,20 @@
+{
+  "name": "WTF",
+  "columns": [
+    {
+      "name": "id",
+      "type": "int",
+      "IsPrimary": true
+    },
+    {
+      "name": "text",
+      "type": "string",
+      "IsPrimary": false
+    },
+    {
+      "name": "a",
+      "type": "dateTime",
+      "IsPrimary": false
+    }
+  ]
+}

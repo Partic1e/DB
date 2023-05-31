@@ -1,0 +1,25 @@
+{
+  "name": "Test",
+  "columns": [
+    {
+      "name": "id",
+      "type": "int",
+      "IsPrimary": true
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "IsPrimary": false
+    },
+    {
+      "name": "text",
+      "type": "string",
+      "IsPrimary": false
+    },
+    {
+      "name": "Da?",
+      "type": "float",
+      "IsPrimary": false
+    }
+  ]
+}

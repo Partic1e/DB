@@ -1,0 +1,20 @@
+{
+  "name": "Final Test",
+  "columns": [
+    {
+      "name": "id",
+      "type": "int",
+      "IsPrimary": true
+    },
+    {
+      "name": "time",
+      "type": "dateTime",
+      "IsPrimary": false
+    },
+    {
+      "name": "place",
+      "type": "string",
+      "IsPrimary": false
+    }
+  ]
+}
