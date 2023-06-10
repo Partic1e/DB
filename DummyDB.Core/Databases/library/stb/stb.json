@@ -1,0 +1,28 @@
+{
+
+  "name": "stb",
+  "columns": [
+
+    {
+      "name": "BookId",
+      "type": "int",
+      "IsPrimary": true
+    },
+    {
+      "name": "StudentId",
+      "type": "int",
+      "IsPrimary": true
+    },
+
+    {
+      "name": "dateOfGetting",
+      "type": "string",
+      "IsPrimary": false
+    },
+    {
+      "name": "dateOfReturning",
+      "type": "string",
+      "IsPrimary": false
+    }
+  ]
+}

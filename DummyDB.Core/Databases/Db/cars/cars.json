@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "cars",
   "columns": [
     {
       "name": "id",
@@ -7,13 +7,18 @@
       "IsPrimary": true
     },
     {
-      "name": "name",
+      "name": "company",
       "type": "string",
       "IsPrimary": false
     },
     {
-      "name": "f",
-      "type": "float",
+      "name": "car",
+      "type": "string",
+      "IsPrimary": false
+    },
+    {
+      "name": "price",
+      "type": "int",
       "IsPrimary": false
     }
   ]

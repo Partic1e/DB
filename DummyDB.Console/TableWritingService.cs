@@ -88,6 +88,10 @@ public static class TableDrawingService
                     maxLength = element;
                 }
             }
+            if (maxLength < _table.Schema.Columns[i].Name!.Length)
+            {
+                maxLength = _table.Schema.Columns[i].Name!.Length;
+            }
 
             result[i] = maxLength;
         }
